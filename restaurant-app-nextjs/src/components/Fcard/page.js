@@ -1,5 +1,5 @@
 import React from "react";
-import bookMark from '../../assets/bookMark.png'
+import bookMark from '../../assets/bookmark.png'
 import { useRouter } from 'next/router';
 
 import {

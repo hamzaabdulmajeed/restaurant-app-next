@@ -39,10 +39,10 @@ import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 
 // import DropdownButton from "../../components/button/page.js";
-import dog from "../../../assets/DogIcon.png";
-import senior from "../../../assets/seniorsicon.png";
-import medal from "../../../assets/medalicon.png";
-import stroller from "../../../assets/strollericon.png";
+import dog from "../../../assets/Dogicon.png";
+import senior from "../../../assets/Seniorsicon.png";
+import medal from "../../../assets/Medalicon.png";
+import stroller from "../../../assets/Strollericon.png";
 import parking from "../../../assets/parking.png";
 import pet from "../../../assets/pet.png";
 import Hotle from "../../../assets/hotel.jpeg";
