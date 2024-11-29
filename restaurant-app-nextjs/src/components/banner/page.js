@@ -8,7 +8,7 @@ import wb from "../../assets/wb.png";
 import wb1 from "../../assets/wb1.png";
 import Image from "next/image";
 import Typography from "@mui/material/Typography";
-import star from "../../assets/staricon.png";
+import star from "../../assets/Staricon.png";
 import phone from "../../assets/phone.png";
 import email from "../../assets/email.png";
 import location from "../../assets/location.png";

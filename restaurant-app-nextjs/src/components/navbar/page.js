@@ -7,7 +7,7 @@ import Button from "@mui/material/Button";
 import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
 import LogoIcon from "../../assets/logo.png";
-import vector from "../../assets/vector.png";
+import vector from "../../assets/Vector.png";
 import Typography from "@mui/material/Typography";
 import bookMark from "../../assets/bookmark.png";
 import active from "../../assets/active.png";
