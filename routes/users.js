@@ -128,10 +128,11 @@ router.post('/getUser', async (req, res) => {
 
     // If user is authenticated, send back the user ID and set cookie
     const userId = user._id; // Extract user's unique ID
-     res.setHeader(
+    res.setHeader(
       'Set-Cookie',
-      `userId=${userId}; Path=/; HttpOnly; SameSite=None; secure; Max-Age=86400`
+      `userId=${userId}; Path=/; HttpOnly; SameSite=None; Secure; Max-Age=86400`
     );
+    
 
     // Return success response with user ID
     res.status(200).json({ userId, user});

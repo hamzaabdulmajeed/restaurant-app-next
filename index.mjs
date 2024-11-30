@@ -17,7 +17,7 @@ const __dirname = path.resolve();
 // import authRouter from './routes/auth.mjs'
 
 import usersRouter from './routes/users.js'
-
+// const cors = require('cors')
 const app = express();
 app.use(express.json()); // body parser
 // app.use(cors())
@@ -32,9 +32,9 @@ app.use(
 app.use("/users", usersRouter) // Secure api
 
 
-app.get('/', (req, res) => {
-    res.status(200).send('Hello!');
-  });
+// app.get('/', (req, res) => {
+//     res.status(200).send('Hello!');
+//   });
   
 
 

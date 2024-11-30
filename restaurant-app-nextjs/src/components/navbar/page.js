@@ -36,7 +36,7 @@ function ResponsiveAppBar() {
   const handleLogout = async () => {
     try {
       // If using a backend API for logout
-      const response = await fetch('https://restaurant-app-next-ruddy.vercel.app/users/logout', {
+      const response = await fetch('http://localhost:3002/users/logout', {
         method: 'POST',
         credentials: 'include', // Include cookies if using sessions
       });

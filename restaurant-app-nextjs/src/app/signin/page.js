@@ -111,7 +111,7 @@ export default function Signin() {
 // }
 //   };
 try {
-  const response = await fetch("https://restaurant-app-next-ruddy.vercel.app/users/getUser", {
+  const response = await fetch("https://restaurant-app-next-five.vercel.app/users/getUser", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",

@@ -35,6 +35,8 @@ export async function middleware(request) {
 
   const userId = request.cookies.get("userId")?.value;
 
+  console.log("Middleware Cookies:", [...request.cookies.entries()]);
+
   console.log("Middleware: userId from cookie =>", userId);
 
   const loginUserNotAccess =

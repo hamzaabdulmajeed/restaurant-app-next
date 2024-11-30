@@ -81,7 +81,7 @@ export default function SignUp() {
   
     try {
       
-      const response = await fetch("https://restaurant-app-next-ruddy.vercel.app/users/addUser", {
+      const response = await fetch("http://localhost:3002/users/addUser", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
